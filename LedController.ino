@@ -191,7 +191,7 @@ void loop(void)
     // Serial.println(step);
 
     refresh_pixels();
-
+    
     // disable Slave Select
     digitalWrite(SS, HIGH);
     
